@@ -44,11 +44,10 @@ function change() {
 
 function multiply() {
   let userNum = document.querySelector("#num").value;
-  let userNumTwo = document.querySelector("#numTwo").value;
   // console.log(userNum);
   let resultText = "";
-  for (let i = 1; i <= 1; i++) {
-    resultText += `${userNum} * ${userNumTwo} = ${userNum * userNumTwo} <br>`;
+  for (let i = 1; i <= 10; i++) {
+    resultText += `${i} * ${userNum} ☘️ ${i * userNum} <br>`;
   }
   document.querySelector(".result").innerHTML = resultText;
 }
